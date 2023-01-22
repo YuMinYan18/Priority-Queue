@@ -49,7 +49,7 @@ class PriorityQueue(object):
 
     @property
     def size(self):
-        return len(self.__vector) - 1
+        return self.length
 
     @property
     def empty(self):
