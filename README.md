@@ -2,13 +2,13 @@
 
 A Priority Queue Structure. 
 
-### Why write it
+## Why write it
 
   Priority Queue has been written in C++ STL, but it is diffcult to use in Queue module in Python.
   
   This is a easier type.
 
-### How to use
+## How to use
 
   Function:
   
@@ -38,6 +38,6 @@ A Priority Queue Structure.
   ```
 
 
-### When to use it
+## When to use it
 
   Priority Queue is a basic data structure. It can be used in some algorithm, like Dijkstra.
