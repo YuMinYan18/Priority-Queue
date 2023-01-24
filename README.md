@@ -17,6 +17,26 @@ How to use:
   Property:
   
   Use 'top' to get the minimum value in the queue. Use 'size' to get the size of the queue.
+  
+  For example:
+  ```python
+  q = PriorityQueue()
+  q.push(5)
+  q.push(7)
+  q.push(2)
+  q.push(21)
+  while not q.empty:
+      print(q.top)
+      q.pop()
+  ```
+  will print
+  ```
+  2
+  5
+  7
+  21
+  ```
+
 
 When to use it:
 
