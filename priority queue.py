@@ -9,7 +9,7 @@ class PriorityQueue(object):
 
     def push(self, value):
         """
-        push a value into the queue with time O(log n).
+        Push a value into the queue with time O(log n).
         """
         self.__vector.append(value)
         self.length += 1
@@ -22,7 +22,7 @@ class PriorityQueue(object):
 
     def pop(self):
         """
-        pop the minimum value out of with time O(log n).
+        Pop the minimum value out of with time O(log n).
         """
         if self.length:
             self.__vector[1] = self.__vector[-1]
@@ -59,4 +59,7 @@ class PriorityQueue(object):
 
     @property
     def empty(self):
+        """
+        Get the queue is empty or not with time O(1).
+        """
         return self.size == 0
