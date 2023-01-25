@@ -10,13 +10,17 @@ A Priority Queue Structure.
 
 ## How to use
 
-  Function:
+  ### Set up
+  
+  You can give a parameter 'cmp' into `__init__`. it must be a function or lambda expression with two parameter. It will be the compare method of the queue. In the queue, x < y only if cmp(x, y) is true.
+
+  ### Function:
   
   Use 'push' to push a value into the queue. 
   
   Use 'pop' to pop the minimum value out of the queue.
 
-  Property:
+  ### Property:
   
   Use 'top' to get the minimum value in the queue. 
   
