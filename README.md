@@ -44,6 +44,25 @@ A Priority Queue Structure.
   7
   21
   ```
+  
+  ### Example 2:
+  ```python
+  q = PriorityQueue(cmp=lambda x, y: x[0] < y[0])
+  q.push((1, 5))
+  q.push((7, 2))
+  q.push((4, 5))
+  q.push((1, 7))
+  while not q.empty:
+      print(q.top)
+      q.pop()
+  ```
+  will print
+  ```
+  (1, 7)
+  (1, 5)
+  (4, 5)
+  (7, 2)
+  ```
 
 
 ## When to use it
