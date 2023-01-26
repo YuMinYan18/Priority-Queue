@@ -24,7 +24,9 @@ A Priority Queue Structure.
   
   Use 'top' to get the minimum value in the queue. 
   
-  Use 'size' to get the size of the queue. Use 'empty' to get the queue is empty or not.
+  Use 'size' to get the size of the queue. 
+  
+  Use 'empty' to get the queue is empty or not.
   
   ### Example 1:
   ```python
