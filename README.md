@@ -22,7 +22,7 @@ A Priority Queue Structure.
 
   ### Property:
   
-  Use 'top' to get the minimum value in the queue. 
+  Use 'top' to get the minimum value in the queue while the queue isn't empty. 
   
   Use 'size' to get the size of the queue. 
   
