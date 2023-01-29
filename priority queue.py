@@ -22,7 +22,7 @@ class PriorityQueue(object):
 
     def pop(self):
         """
-        Pop the minimum value out of the queue with time O(log n).
+        Pop the minimum value out of the queue while the queue isn't empty with time O(log n).
         """
         if self.length:
             self.__vector[1] = self.__vector[-1]
