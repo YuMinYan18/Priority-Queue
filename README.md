@@ -12,7 +12,7 @@ A Priority Queue Structure.
 
   ### Set up
   
-  You can give a parameter `cmp` into `__init__`. It must be a function or lambda expression with two parameter. It will be the compare method of the queue. In the queue, x < y only if cmp(x, y) is true.
+  You can give a parameter `cmp` into `__init__`. It must be a function or lambda expression with two parameter. It will be the compare method of the queue. In the queue, $x < y$ only if `cmp(x, y)` is true.
 
   ### Function:
   
