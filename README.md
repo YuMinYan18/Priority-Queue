@@ -16,17 +16,17 @@ A Priority Queue Structure.
 
   ### Function:
   
-  Use 'push' to push a value into the queue. 
+  Use `push` to push a value into the queue. 
   
-  Use 'pop' to pop the minimum value out of the queue.
+  Use `pop` to pop the minimum value out of the queue.
 
   ### Property:
   
-  Use 'top' to get the minimum value in the queue while the queue isn't empty. 
+  Use `top` to get the minimum value in the queue while the queue isn't empty. 
   
-  Use 'size' to get the size of the queue. 
+  Use `size` to get the size of the queue. 
   
-  Use 'empty' to get the queue is empty or not.
+  Use `empty` to get the queue is empty or not.
   
   ### Example 1:
   ```python
