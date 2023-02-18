@@ -49,7 +49,7 @@ A Priority Queue Structure.
   
   ### Example 2:
   ```python
-  q = PriorityQueue(cmp=lambda x, y: x[0] < y[0])
+  q = PriorityQueue(cmp=lambda x, y: x[1] < y[1] if (x[0] == y[0]) else x[0] < y[0])
   q.push((1, 5))
   q.push((7, 2))
   q.push((4, 5))
@@ -57,11 +57,12 @@ A Priority Queue Structure.
   while not q.empty:
       print(q.top)
       q.pop()
+
   ```
   will print
   ```
-  (1, 7)
   (1, 5)
+  (1, 7)
   (4, 5)
   (7, 2)
   ```
