@@ -37,7 +37,7 @@ _Upd 2023-03-13:Delete `size` and `empty`, use `len()` and `bool()` instead._
   q.push(7)
   q.push(2)
   q.push(21)
-  while not q.empty:
+  while q:
       print(q.top)
       q.pop()
   ```
