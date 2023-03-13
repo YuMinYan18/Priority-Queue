@@ -60,4 +60,4 @@ class PriorityQueue(object):
         """
         Get the queue is empty or not with time O(1).
         """
-        return len(self) == 0
+        return bool(len(self))
