@@ -50,16 +50,14 @@ class PriorityQueue(object):
         if self.__vector:
             return self.__vector[1]
 
-    @property
-    def size(self):
+    def __len__(self):
         """
         Get the size of the queue with time O(1).
         """
         return self.length
 
-    @property
-    def empty(self):
+    def __bool__(self):
         """
         Get the queue is empty or not with time O(1).
         """
-        return self.size == 0
+        return len(self) == 0
