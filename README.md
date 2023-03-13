@@ -2,6 +2,8 @@
 
 A Priority Queue Structure. 
 
+_Upd 2023-03-13:Delete `size` and `empty`, use `len()` and `bool()` instead._
+
 ## Why write it
 
   Priority Queue has been written in C++ STL, but it is diffcult to use in Queue module in Python.
