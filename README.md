@@ -2,7 +2,7 @@
 
 A Priority Queue Structure. 
 
-_Upd 2023-03-13:Delete `size` and `empty`, use `len()` and `bool()` instead._
+_Upd 2023-03-13:Delete `size` and `empty`, use `__len__` and `__bool__` instead._
 
 ## Why write it
 
