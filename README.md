@@ -18,17 +18,23 @@ _Upd 2023-03-13:Delete `size` and `empty`, use `__len__` and `__bool__` instead.
 
   ### Function:
   
-  Use `push` to push a value into the queue. 
+  Use `push` to add a value into the queue. 
   
-  Use `pop` to pop the minimum value out of the queue.
+  Use `pop` to detele the minimum value out of the queue.
 
   ### Property:
   
-  Use `top` to get the minimum value in the queue while the queue isn't empty. 
-  
-  Use `size` to get the size of the queue. 
-  
-  Use `empty` to get the queue is empty or not.
+  Use `top` to get the minimum value in the queue when the queue isn't empty. 
+
+  ### with Built-in Function
+
+  ```python
+  q = PriorityQueue()
+  ```
+
+  `bool(q)` returns true when `q` isn't empty.
+
+  `len(q)` returns the length of the queue.
   
   ### Example 1:
   ```python
