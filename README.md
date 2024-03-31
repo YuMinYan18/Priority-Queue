@@ -12,7 +12,7 @@ It also has this property:
 
   `top`: get the most minimum value in the queue.
 
-Each of these functions or propertys need the time `O(log n)`. `n` is the length of the queue.
+Each of these functions or properties need the time `O(log n)`. `n` is the length of the queue.
 
 ## How to use it
 ### Set up
