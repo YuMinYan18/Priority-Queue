@@ -5,6 +5,7 @@ A Priority Queue Class in Python.
 Priority Queue is a data structure with these functions: 
   
   `push`: put a new value into the queue.
+
   `pop`: delete the most minimum value from the queue.
 
 It also has this property: 
