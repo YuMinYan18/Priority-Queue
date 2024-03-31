@@ -13,3 +13,13 @@ A Priority Queue Class in Python.
 ### Set up
   You can give an parameter called 'cmp' into `__init__`, which must be a function or Lambda Expression.
   'cmp' is the comparing method of the queue. In the queue, 'x < y' only if `cmp(x, y)` returns `true.
+### Functions
+  There are 2 functions `push(value)` and `pop()` in the class. Their usages have been introduced in last paragraph.
+  `push` needs 1 parameter, which is the value to push in.
+  `pop` doesn't need any parameter.
+### Properties
+  There is 1 property `top` in the class. It has been introduced in last paragraph.
+  Remember: you should use it as `q.top`. __Don't use as `q.top()`__, or it will throw a exception. 
+### Usage with Builtin Functions
+  You can use `bool(q)` to know if `q` isn't empty.
+  You can use `len(q)` to get the length of `q`.
