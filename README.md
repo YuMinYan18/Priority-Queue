@@ -12,7 +12,7 @@ It also has this property:
 
   `top`: get the most minimum value in the queue.
 
-Each of these functions or properties need the time `O(log n)`. `n` is the length of the queue.
+Each of these functions or properties need the time of logarithm of the size of the queue.
 
 ## How to use it
 ### Set up
@@ -29,7 +29,7 @@ Each of these functions or properties need the time `O(log n)`. `n` is the lengt
   There is 1 property `top` in the class. It has been introduced in last paragraph.
 
   Remember: you should use it as `q.top`. __Don't use as `q.top()`__, or it will throw a exception. 
-### Usage with Builtin Functions
+### Usages with Builtin Functions
   You can use `bool(q)` to know if `q` isn't empty.
 
   You can use `len(q)` to get the length of `q`.
