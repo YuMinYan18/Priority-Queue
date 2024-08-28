@@ -12,7 +12,7 @@ It also has this property:
 
   `top`: get the most minimum value in the queue.
 
-Each of these functions or properties need the time of logarithm of the size of the queue.
+Each of these functions or properties need the time of the logarithm of the size of the queue.
 
 ## How to use it
 ### Set up
